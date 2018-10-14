@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-I am interested in data science, graphs, networks and practical applications of scientific methods to real world data.
+I am a computer geek and a sport lover.
 
-I am curious and I need to learn new things every day.
+I am working at Zinno Inc, building web api for a smart hub, camera, and interface to assistances like Alexa, Google Home.
 
-I have a background in Physics and Mathematics. I have spent many years in various research labs analyzing data or designing new methods for data analysis. Over the last few years, I focused on graphs and their fascinating properties.
-I got a PhD in Mathematical Physics in 2007 and worked as a researcher in academia until 2016. You can find my scientific publications on [Google Scholar](https://scholar.google.fr/citations?user=muGuSyoAAAAJ)
+Caring about reliable, maintainable software, I always require my projects to be setup with CI, be driven with TDD, BDD process.
 
-I am the founder of the company [Evia Cybernetics](http://www.eviacybernetics.com).
+I founded Ubisen, a group of tech activists working in providing M2M solutions. At Ubisen, we built connected devices with Zigbee SoC, SubGhz, Wifi; we also built cloud platform to make connecting more easy. I was a consultant at SmartGrow, building monitoring system for their hydroponic.
+
+I love building distributed systems from tiny embedded chip to the cloud. My tools are Linux, C, NodeJS, Golang.
