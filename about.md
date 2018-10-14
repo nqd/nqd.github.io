@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am interested in data science, graphs, networks and practical applications of scientific methods to real world data.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am curious and I need to learn new things every day.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I have a background in Physics and Mathematics. I have spent many years in various research labs analyzing data or designing new methods for data analysis. Over the last few years, I focused on graphs and their fascinating properties.
+I got a PhD in Mathematical Physics in 2007 and worked as a researcher in academia until 2016. You can find my scientific publications on [Google Scholar](https://scholar.google.fr/citations?user=muGuSyoAAAAJ)
 
-
-[jekyll-organization]: https://github.com/jekyll
+I am the founder of the company [Evia Cybernetics](http://www.eviacybernetics.com).
