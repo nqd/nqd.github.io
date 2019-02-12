@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Version với Golang
+title: Version in Golang
 published: true
 ---
 
