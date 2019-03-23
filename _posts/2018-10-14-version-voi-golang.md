@@ -10,7 +10,7 @@ Go does not have a thing like package.json, and I would expect the `version` sho
 
 At first, the needed information from the shell:
 
-```{shell}
+```bash
 - timestamp: `date -u '+%Y-%m-%d_%I:%M:%S%p'`. (e.g. 2018-10-13_08:26:34AM)  
 - githash: `git rev-parse HEAD`
 - gittag: `git describe --tags $(git rev-list --tags --max-count=1)`
@@ -21,7 +21,7 @@ How to pass the value to the artifact? From one issue in Go <https://github.com/
 
 Then the makefile:
 
-```{makefile}
+```makefile
 buildtime=`date -u '+%Y-%m-%d_%I:%M:%S%p'`
 githash=`git rev-parse HEAD`
 gittag=`git describe --tags $(git rev-list --tags --max-count=1)`
@@ -32,7 +32,7 @@ The makefile tells Go compiler to replace buildstamp, githash, and gittag from v
 
 At handlers.go where the buildstamp, githash, and gittag can be exported via one API:
 
-```{golang}
+```go
 var buildstamp = "no buildstamp provided"  
 var githash = "no githash provided"  
 var gittag = "no tag"  

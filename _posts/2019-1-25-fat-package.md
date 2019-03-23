@@ -8,7 +8,7 @@ One of the new things that Amazon IoT adding above MQTT is the shadow doc. Shado
 
 Basic function of a shadow doc is the ability to update part of its JSON object. For example, one thermostat has shadow `{  "ambient": 25.1 }`, then has the setPoint updated with `{ "setPoint": { "cool": 20.5 } }` to get combined doc:
 
-```{json}
+```go
 {
   "ambient": 25.1,
   "setPoint": {
