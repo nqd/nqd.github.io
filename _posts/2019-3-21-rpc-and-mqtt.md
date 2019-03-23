@@ -12,21 +12,15 @@ The bad is that MQTT may not be the best protocol for IoT at all. Given this com
 
 Handle:
 
-```{js}
-rpc.provide(name: string, callback)
-```
+    rpc.provide(name: string, callback)
 
 Request:
 
-```{js}
-rpc.make(name: string, arg{}, return: function())
-```
+    rpc.make(name: string, arg{}, return: function())
 
 The RPC would travel across the cloud if they are not on the same local network
 
-```{text}
-requester --- { cloud } --- handler
-```
+    requester --- { cloud } --- handler
 
 A good RPC would return an error if there is no handler, or the handler just went offline. Other factors that need to take into account is timeout, load balancing.
 
@@ -36,16 +30,12 @@ Back to MQTT, how could we archive it? With v3.1.1, there is no request-response
 
 Request:
 
-```{js}
-client.publish(requestTopic, arg{})
-client.subscribe(responseTopic, callback)
-```
+    client.publish(requestTopic, arg{})
+    client.subscribe(responseTopic, callback)
 
 Handle:
 
-```{js}
-client.subcribe(requestTopic, arg{}, callback)
-```
+    client.subcribe(requestTopic, arg{}, callback)
 
 Here come a few problems:
 
@@ -55,10 +45,8 @@ Here come a few problems:
 
 With new MQTT v5, the problem partly solved. v5 define request/response method at the MQTT level. Here is the code at requester:
 
-```{js}
-client.publish(requestTopic, arg{expectedResponseTopic, ...}})
-client.subscribe(expectedResponseTopic, callback)
-```
+    client.publish(requestTopic, arg{expectedResponseTopic, ...}})
+    client.subscribe(expectedResponseTopic, callback)
 
 v5 adding one thing: expected response topic embedded in the request. Again we are missing the load balancing and timeout.
 
