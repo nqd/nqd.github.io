@@ -13,7 +13,7 @@ Just use WebSocket, you may say, as people have been doing for a decade. Agree. 
 
 Why [gqlgen](https://gqlgen.com/)? It's based in Golang, and strong type by design. And easy to work with.
 
-## Work with one handler, let's make it simple
+## Work with one worker, let's make it simple
 
 My first attempt to use the default todo app, with a subscription to newly created todo. Defining a struct to keep all todos
 
