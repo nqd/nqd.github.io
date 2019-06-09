@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JSON object flatten/unflatten in Golang
+description: JSON object flatten/unflatten package in golang
 published: true
 ---
 

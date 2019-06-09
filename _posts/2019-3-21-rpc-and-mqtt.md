@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RPC and MQTT
+description: RPC and MQTT
 published: true
 ---
 

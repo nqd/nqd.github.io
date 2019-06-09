@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Version in Golang
+description: Version in Golang
 published: true
 ---
 
