@@ -1,15 +1,16 @@
 ---
 layout: page
 title: About
+desciption: About me
 permalink: /about/
 ---
 
-I am a computer geek and a sport lover.
+Welcome to my personal site. I am a computer geek and sports lover. I love building distributed systems from tiny embedded chip to the cloud. In free time, I run and swim.
 
-I am working at Zinno Inc, building web api for a smart hub, camera, and interface to assistances like Alexa, Google Home.
+My tools are Linux, Golang, NodeJS, C. In the last few years, I have been working extensively in the area of IoT, communication protocol, real-time system, and web service.
 
-Caring about reliable, maintainable software, I always require my projects to be setup with CI, be driven with TDD, BDD process.
+I am working at Veriksystems, help customers (Belkin, Origin Wireless) bring the next generation of network devices to the market. My main role is architecting and developing the cloud system, working with mobile and firmware teams to deliver end to end solution to our customers.
 
-I founded Ubisen, a group of tech activists working in providing M2M solutions. At Ubisen, we built connected devices with Zigbee SoC, SubGhz, Wifi; we also built cloud platform to make connecting more easy. I was a consultant at SmartGrow, building monitoring system for their hydroponic.
+Caring about reliable, maintainable software, I always require my projects to be set up with CI, be driven with TDD, BDD process.
 
-I love building distributed systems from tiny embedded chip to the cloud. My tools are Linux, C, NodeJS, Golang.
+You can find my full CV [here](https://github.com/nqd/nqd.github.io/raw/master/files/nqdinh_cv.pdf). Contact me at nqdinh (at) outlook (dot) com.
