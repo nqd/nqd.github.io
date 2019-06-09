@@ -72,7 +72,7 @@ func (r *mutationResolver) CreateTodo(ctx context.Context, input NewTodo) (*Todo
 
 And here is the result.
 
-[Subscription with NATS](/images/2019-06-09-gqlgen-subscriptions/sub-local.gif){:width="400px" :class="img-responsive"}
+![Subscription with NATS](/images/2019-06-09-gqlgen-subscriptions/sub-local.gif){:width="800px" :class="img-responsive"}
 
 ## Scale-up boy, we need to work with multiple handlers
 
@@ -146,9 +146,9 @@ func (r *mutationResolver) CreateTodo(ctx context.Context, input NewTodo) (*Todo
 
 Testing by running a local NATS server, and two workers at port 8081, 8080. One client subscribe at :8081, one client create new todo at :8080
 
-[Subscription with NATS](/images/2019-06-09-gqlgen-subscriptions/sub-nats.gif){:width="400px" :class="img-responsive"}
+![Subscription with NATS](/images/2019-06-09-gqlgen-subscriptions/sub-nats.gif){:width="800px" :class="img-responsive"}
 
 NATS takes a lot of complexity under the hood to provide us a "scalable" subcription with gqlgen.
-I also have a simple prototype with Redis.
 
+I also have a simple prototype with Redis.
 Maybe will release a `mq` package to make the subscription more easy. Stay tune.
