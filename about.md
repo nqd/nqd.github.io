@@ -15,9 +15,10 @@ system, and web service.
 
 I am working at Gopay of Gojek, one of the latest fintech in Southeast Asian.
 
-At Veriksystems, I helped customers bring the next generation of network devices
-to the market. My main role is develop, architect, manage projects, work with
-mobile and firmware teams to deliver end to end solution to our customers.
+At [Veriksystems](veriksystems.com), I helped customers bring the next
+generation of network devices to the market. My main role is develop, architect,
+manage projects, work with mobile and firmware teams to deliver end to end
+solution to our customers.
 
 At [Zinno](https://zinnoinc.com), I led a backend group of three, built backend
 for Zwave/Zigbee hub and battery-powered camera. We built
@@ -27,7 +28,7 @@ the voice interface with the system.
 Caring about reliable, maintainable software, I always require my projects to be
 set up with CI, be driven with TDD, BDD process.
 
-Some past open source projects are:
+Some open source projects are:
 - [gobench](https://github.com/gobench-io/gobench): A distributed benchmark
   framework that support multiple protocols.
 - [esp8266-dev](https://github.com/nqd/esp8266-dev): ESP8266 WiFi SoC
