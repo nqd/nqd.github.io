@@ -7,3 +7,6 @@ _site
 node_modules
 package.json
 /images/entropy/.~lock.splitdiagram.odg#
+
+vendor/
+.jekyll-cache/
