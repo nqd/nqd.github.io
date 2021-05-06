@@ -5,15 +5,18 @@ description: Giao dịch phân tán
 published: true
 ---
 
-Đây là ghi chú cho thảo luận của nhóm Hệ thống phân tán của Grokking Việt Nam.
+Đây là ghi chú cho thảo luận của tôi trong nhóm Hệ thống phân tán của Grokking
+Việt Nam.
 
 Atomicity mà một trong bốn thuộc tính ACID của một hệ quan trị CSDL. Atomicity
 cung cấp một cơ chế xử lý trong trường hợp có một (hoặc nhiều) hành động ghi nào
 đó bị lỗi.
 
 Ví dụ: chuyến một số tiền X từ tài khoản A sang B bao gồm 2 hành động:
+```
 (a) Balance(A) = Balance(A) - X;
 (b) Balance(B) = Balance(B) + X.
+```
 
 Với một Atomic transaction thì chỉ có thể xảy ra một trong hai trường hợp:
 1. Tài khoản A và B giữ nguyên nếu một trong hai hành động (a) (b) lỗi hoặc cả
