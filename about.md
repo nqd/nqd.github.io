@@ -13,7 +13,8 @@ My tools are Golang, NodeJS, Java, C and Linux. In the last few years, I have
 been working extensively in the area of IoT, communication protocol, real-time
 system, and web service.
 
-I am working at Gopay of Gojek, one of the latest fintech in Southeast Asian.
+I am working at [Gopay of Gojek](https://www.gojek.com/en/th/gopay/), one of the largest fintech company in Southeast
+Asian.
 
 At [Veriksystems](veriksystems.com), I helped customers bring the next
 generation of network devices to the market. My main role is develop, architect,
