@@ -146,7 +146,7 @@ Một `Message Relay` process độc lập đẩy message/event này vào messag
 Vấn đề:
 1. `Message Relay` có thể publish message nhiều hơn một lần (Vì sao?). Vì vậy
    message consumer cần phải có thuộc tính idempotent. Tuy nhiên `Message
-   Broker` cũng có thể giao lặp mại một message/event nên đây thường không phải
+   Broker` cũng có thể giao lặp lại một message/event nên đây thường không phải
    là vấn đề.
 2. Polling DB thì đơn giản, nhưng chỉ hoạt động tốt với scale nhỏ.
 
@@ -162,8 +162,8 @@ COMMIT
 ![](https://microservices.io/i/patterns/data/TransactionLogMining.png){:width="800px"
 :class="img-responsive"}
 
-Hình: Message/event, lấy từ Outbox table bằng cách khai thác DB transaction log, được
-đưa vào broker. Tham khảo [3].
+Hình: Message/event, lấy từ Outbox table bằng cách khai thác DB transaction log,
+được đưa vào broker. Tham khảo [3].
 
 Ví dụ
 1. https://debezium.io/ publish thay đổi trong DB vào Kafka
