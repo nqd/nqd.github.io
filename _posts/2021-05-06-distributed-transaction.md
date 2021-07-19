@@ -109,12 +109,21 @@ Chi tiết:
 
 ## 5. Sự thay thế:
 
-SAGA: https://microservices.io/patterns/data/saga.html
+Saga là một chuỗi các transaction cục bộ. Mỗi transaction cục bộ cập nhật CSDL
+và công bố một message hoặc event đến transaction cục bộ tiếp theo trong saga.
+Nếu một transaction cục bộ lỗi (vì vi phạm nguyên tắc kinh doanh) thì saga sẽ
+kích hoạt một chuỗi transaction bồi thường (compensating) để hoàn tác những sự
+thay đổi ở những transaction cục bộ trước đó.
 
-// TODO: write here
+Xem ví dụ 2 trường hợp điều phối saga
+- a. Choreography) và
+- b. Orchestration
 
-Transactional message (TM): Khi tất cả bạn muồn là atomic {cập nhật DB, publish
-một event/message}.
+tại
+[https://microservices.io/patterns/data/saga.html](https://microservices.io/patterns/data/saga.html).
+
+Để thực hiện saga, chúng ta cần có transactional message (TM): Khi tất cả bạn
+muốn là atomic {cập nhật DB, publish một event/message}.
 
 Có 2 cách thực thi cho TM: transaction outbox, và transaction log tailing.
 
