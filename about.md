@@ -13,7 +13,7 @@ I work extensively in IoT, communication protocol, real-time system, and web ser
 
 I am working at [Coinbase](https://coinbase.com) to create an open financial system for the world, focusing on the SEA markets.
 
-I worked at [Gopay of Goto group](https://www.gojek.com/en/th/gopay/), one of the largest fintech company in Southeast Asian, where I was an IC maintaining and developing new features for the topup and withdarwal flows.
+I worked at [Gopay of Goto Financial](https://gotofinancial.com/en), one of the largest fintech company in Southeast Asian, where I was an IC maintaining and developing new features for the topup and withdarwal flows.
 
 At [Veriksystems](veriksystems.com), I helped customers bring the next
 generation of network devices to the market. My role is develop, architect, manage projects, work with mobile and firmware teams to deliver end-to-end solution to our customers.
