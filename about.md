@@ -9,7 +9,7 @@ Welcome to my personal site. I am a computer geek and sports lover. I love
 building distributed systems from tiny embedded chip to the cloud. In free time,
 I run and swim.
 
-My tools are Golang, NodeJS, Java, C and Linux. In the last few years, I have
+My tools are Golang, Java, NodeJS, C and Linux. In the last few years, I have
 been working extensively in the area of IoT, communication protocol, real-time
 system, and web service.
 
