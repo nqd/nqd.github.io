@@ -34,9 +34,10 @@ Any clients that understand the protocol can work with Faktory. And that is the 
 My first impression is like well the guys are bold enough to build their message via TCP. Why don't simply use gRPC for communication? I don't have the answer right now, guessing the author loves Redis (which is the only storage for Faktory so far) so much and wants to go [the same text-based protocol](https://github.com/contribsys/faktory/wiki/Worker-Lifecycle#network-connection) like that of Redis.
 
 The whole purpose of Faktory, as well as any background job server, is to answer the `Can I do this work later?` question. To be specific, it should be able to schedule a job in one of the following cases:
-a. Run this job as soon as possible,
-b. Run this job in the next 30 mins, and
-c. Run this job at 9:00 AM every Monday.
+
+1. Run this job as soon as possible,
+2. Run this job in the next 30 mins, and
+3. Run this job at 9:00 AM every Monday.
 
 As we will see later, Faktory has different APIs for those cases, and also different implementations.
 
